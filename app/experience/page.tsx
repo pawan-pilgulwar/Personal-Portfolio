@@ -39,7 +39,7 @@ export default function ExperiencePage() {
             </CardHeader>
             <CardContent className="text-center space-y-4">
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                I'm a passionate developer ready to bring fresh perspectives and dedication to a dynamic team. Currently
+                I&apos;m a passionate developer ready to bring fresh perspectives and dedication to a dynamic team. Currently
                 seeking my first professional role where I can contribute to meaningful projects and grow my skills.
               </p>
               <div className="flex flex-wrap justify-center gap-2 mb-6">
@@ -51,7 +51,7 @@ export default function ExperiencePage() {
               </div>
               <Button asChild size="lg" className="group">
                 <Link href="/contact">
-                  Let's Connect
+                  Let&apos;s Connect
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>

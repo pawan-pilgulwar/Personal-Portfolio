@@ -39,12 +39,12 @@ export default function AboutPage() {
               <CardContent className="space-y-4">
                 <div className="w-32 h-32 bg-gradient-to-br from-primary to-secondary rounded-full mx-auto mb-6" />
                 <p className="text-muted-foreground leading-relaxed">
-                  I'm a passionate full-stack developer with a love for creating elegant, efficient solutions to complex
+                  I&apos;m a passionate full-stack developer with a love for creating elegant, efficient solutions to complex
                   problems. My journey in tech started with curiosity and has evolved into a deep commitment to crafting
                   exceptional user experiences.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
+                  When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects,
                   or sharing knowledge with the developer community.
                 </p>
               </CardContent>
