@@ -77,7 +77,7 @@ export const PROJECTS = [
     description: "A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play this timeless game against a friend or challenge yourself against the computer.",
     image: "/project_images/ticktaktoe.png",
     technologies: ["HTML", "CSS", "JS"],
-    liveUrl: "https://vercel.com/pawan-pilgulwars-projects/tik-tac-toe-game",
+    liveUrl: "https://tik-tac-toe-game-livid.vercel.app/",
     githubUrl: "https://github.com/pawan-pilgulwar/Tik-tac-toe-Game.git",
   },
   {
