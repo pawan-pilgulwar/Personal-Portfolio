@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { User, GraduationCap, Code, Heart } from "lucide-react"
 import { TECH_STACK, SOFT_SKILLS, EDUCATION } from "@/constants/data"
+import Image from "next/image"
 
 export default function AboutPage() {
   return (
@@ -37,7 +38,13 @@ export default function AboutPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="w-32 h-32 bg-gradient-to-br from-primary to-secondary rounded-full mx-auto mb-6" />
+                  <Image
+                    src = "/profileimage.jpg"
+                    alt="profile"
+                    className="w-32 h-32 bg-gradient-to-br from-primary to-secondary rounded-full mx-auto mb-6"
+                    height={200}
+                    width={400}
+                  />
                 <p className="text-muted-foreground leading-relaxed">
                   I&apos;m a passionate full-stack developer with a love for creating elegant, efficient solutions to complex
                   problems. My journey in tech started with curiosity and has evolved into a deep commitment to crafting
@@ -64,7 +71,7 @@ export default function AboutPage() {
                   Education
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-6">
+              <CardContent className="space-y-6 max-h-90 overflow-y-auto">
                 {EDUCATION.map((edu, index) => (
                   <motion.div
                     key={index}

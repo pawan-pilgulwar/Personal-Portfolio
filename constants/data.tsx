@@ -24,10 +24,22 @@ export const EDUCATION = [
     description: "Focused on software engineering, algorithms, and web development. Graduated with honors.",
   },
   {
-    degree: "Full Stack Web Development Bootcamp",
-    school: "Tech Academy",
-    year: "2023",
-    description: "Intensive 6-month program covering modern web technologies and best practices.",
+    degree: "Full Stack Web Development Course",
+    school: "Udemy",
+    year: "2025",
+    description: "Intensive program covering modern web technologies and best practices.",
+  },
+  {
+    degree: "HSC in Science(PCM)",
+    school: "Defence Career Academy Aurangabad",
+    year: "2020 - 2022",
+    description: "My score of the HSC board exam is 76.2 percentage in PCM group",
+  },
+  {
+    degree: "SSC [Maharashta state board]",
+    school: "Pinnacle International School Nanded",
+    year: "2017 - 2020",
+    description: "My score of the SSC board exam is 92.80 percentage in PCM group",
   },
 ]
 
