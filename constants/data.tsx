@@ -64,6 +64,15 @@ export const PROJECTS = [
   },
   {
     id: 3,
+    title: "INotebook",
+    description: "INotebook is a modern note-taking application designed to help users organize their thoughts, ideas, and tasks efficiently. With a clean and intuitive interface, it offers features like rich text editing, tagging, and seamless synchronization across devices.",
+    image: "/project_images/inotebook.png",
+    technologies: ["React.js", "Express", "JavaScript", "MongoDB"],
+    liveUrl: "https://inotebook-frontend-steel.vercel.app/",
+    githubUrl: "https://github.com/pawan-pilgulwar/inotebook-website.git",
+  },
+  {
+    id: 4,
     title: "TextUtils",
     description: "TextUtils is a simple React application for manipulating and analyzing text. It provides features such as word/character counting, case conversion, and more, with support for light and dark modes.",
     image: "/project_images/textutils.png",
@@ -72,7 +81,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/pawan-pilgulwar/TextUtils.git",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tic Tac Toe Game",
     description: "A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play this timeless game against a friend or challenge yourself against the computer.",
     image: "/project_images/ticktaktoe.png",
@@ -81,7 +90,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/pawan-pilgulwar/Tik-tac-toe-Game.git",
   },
   {
-    id: 5,
+    id: 6,
     title: "Rock Paper Scissors Game",
     description: "A simple and interactive Rock, Paper, Scissors game built with HTML, CSS, and JavaScript.",
     image: "/project_images/rockpaperseissor.png",
@@ -90,7 +99,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/pawan-pilgulwar/Rock-Paper-Sessior-Game.git",
   },
   {
-    id: 6,
+    id: 7,
     title: "Currency Converter",
     description: "A simple and interactive Currency Converter built with HTML, CSS, and JavaScript. This tool allows users to convert amounts between various currencies using real-time exchange rates.",
     image: "/project_images/currencyconverter.png",
